@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Welcome to PuiFai Chau page</h1>
+      <a href="https://github.com/gabecpf97/my_page">Github page</a>
+      <h2>Projects: </h2>
+      <ul className="projects">
+        <li className="project">
+          <a href="https://gabecpf97.github.io/clone_book_page/">Clone social media</a>
+        </li>
+      </ul>
     </div>
   );
 }
