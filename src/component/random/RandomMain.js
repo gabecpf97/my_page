@@ -1,4 +1,5 @@
 import React from "react";
+import ItemInput from "./ItemInput";
 
 const RandomMain = () => {
 
@@ -6,6 +7,7 @@ const RandomMain = () => {
         <div className="random">
             <ul>
                 <li>random item</li>
+                <ItemInput />
                 <li>random number</li>
                 <li>random string</li>
             </ul>
