@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
       <ul className="projects">
         <li className="project">
           <a href="https://gabecpf97.github.io/clone_book_page/">Clone social media</a>
+        </li>
+        <li>
+          <Link to="/random">Random generator</Link>
         </li>
       </ul>
     </div>
