@@ -30,11 +30,13 @@ const ItemInput = () => {
                 </div>
                 <input type="submit" value="add" />
             </form>
-            {items && items.map(item => {
-                return (
-                    <li key={uniqid()}>{item}</li>
-                )
-            })}
+            <ul className="user_item">
+                {items && items.map(item => {
+                    return (
+                        <li key={uniqid()}>{item}</li>
+                    )
+                })}
+            </ul>
             <button onClick={() => handleRandom()}>Randomize</button>
             {output > -1 && <h2>Chosen Item: {items[output]}</h2>}
         </div>
